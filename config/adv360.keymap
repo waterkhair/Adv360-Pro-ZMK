@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                         &mo 3  &kp F7        &kp F8        &kp F9       &kp F10          &kp F11        &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans             &none                                                         &none   &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9     &kp KP_MINUS  &kp KP_DIVIDE
- &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                  &trans        &trans   &none  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp KP_PLUS         &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                        &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY         &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &kp KP_EQUAL  &trans          &kp NUMBER_0        &trans    &kp KP_DOT           &trans         &trans
+ &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                         &mo 3  &kp F7        &kp F8        &kp F9       &kp F10          &kp F11  &kp F12
+ &trans  &trans  &trans  &trans  &trans  &trans             &none                                                         &none   &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9     &kp KP_MINUS   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                  &trans        &trans   &none  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp KP_PLUS   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                        &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp KP_DIVIDE   &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &kp KP_EQUAL  &trans                &trans  &kp NUMBER_0    &kp KP_DOT  &kp KP_MULTIPLY   &trans
             >;
         };
 
